@@ -1,5 +1,3 @@
-using System;
-
 class Program
 {
     static void Main()
@@ -29,11 +27,9 @@ class Program
             demand[j] = int.Parse(Console.ReadLine());
         }
 
-
-
         // ввод тарифа
         int[,] cost = new int[rows, cols];
-        Console.WriteLine("\n Введите тарифы (стоимость перевозки)");
+        Console.WriteLine("\nВведите тарифы (стоимость перевозки)");
         for (int i = 0; i < rows; i++)
         {
             Console.WriteLine($"\nПоставщик {i + 1}:");
@@ -45,7 +41,7 @@ class Program
         }
 
         // вывод
-        Console.WriteLine("\nвведенные данные");
+        Console.WriteLine("\nВведенные данные");
         Console.WriteLine("Запасы поставщиков: " + string.Join(", ", supply));
         Console.WriteLine("Потребности потребителей: " + string.Join(", ", demand));
         Console.WriteLine("\nМатрица тарифов:");
@@ -55,14 +51,13 @@ class Program
             {
                 Console.Write($"{cost[i, j],5}");
             }
-
             Console.WriteLine();
         }
 
-        // выбор
-        Console.WriteLine("1 - Метод минимального элемента");
+        // выбор метода построения опорного плана
+        Console.WriteLine("\n1 - Метод минимального элемента");
         Console.WriteLine("2 - Метод северо-западного угла");
-        Console.Write("ваш выбор: ");
+        Console.Write("Ваш выбор: ");
 
         int choice = int.Parse(Console.ReadLine());
 
@@ -70,29 +65,26 @@ class Program
 
         if (choice == 1)
         {
-            Console.WriteLine("\nметод минимального элемента");
+            Console.WriteLine("\nМетод минимального элемента");
             result = Transporter.MinElementMethod(supply, demand, cost);
         }
         else if (choice == 2)
         {
-            Console.WriteLine("\nметод северо западного угла");
+            Console.WriteLine("\nМетод северо-западного угла");
             result = Transporter.SeveroZapad(supply, demand, cost);
         }
-
         else
         {
             Console.WriteLine("Неверный выбор!");
             return;
         }
-
-
+        
+        Console.WriteLine("\nПолученный опорный план:");
         Transporter.PrintPlan(result.plan, result.totalCost);
-
-
+        
+        Console.WriteLine("\n метод потенциалов");
+        Transporter.PotentialMethod(supply, demand, cost, result.plan);
+        
+        Console.ReadKey();
     }
 }
-
-
- 
-
-

@@ -12,3 +12,4 @@
 /Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/OpornyePlany.pdb
 /Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/OpornyePlany.genruntimeconfig.cache
 /Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/ref/OpornyePlany.dll
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/OpornyePlany.sourcelink.json
