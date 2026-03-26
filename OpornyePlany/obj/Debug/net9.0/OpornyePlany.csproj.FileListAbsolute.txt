@@ -1,0 +1,14 @@
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/bin/Debug/net9.0/OpornyePlany
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/bin/Debug/net9.0/OpornyePlany.deps.json
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/bin/Debug/net9.0/OpornyePlany.runtimeconfig.json
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/bin/Debug/net9.0/OpornyePlany.dll
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/bin/Debug/net9.0/OpornyePlany.pdb
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/OpornyePlany.GeneratedMSBuildEditorConfig.editorconfig
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/OpornyePlany.AssemblyInfoInputs.cache
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/OpornyePlany.AssemblyInfo.cs
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/OpornyePlany.csproj.CoreCompileInputs.cache
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/OpornyePlany.dll
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/refint/OpornyePlany.dll
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/OpornyePlany.pdb
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/OpornyePlany.genruntimeconfig.cache
+/Users/geshtalt/RiderProjects/OpornyePlany/OpornyePlany/obj/Debug/net9.0/ref/OpornyePlany.dll
