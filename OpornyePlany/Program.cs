@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Transporter
 {
-    // Существующие методы MinElementMethod, SeveroZapad, PrintPlan остаются без изменений
+ 
     public static (int[,], int) MinElementMethod(int[] supply, int[] demand, int[,] cost)
     {
         int rows = supply.Length;
@@ -83,7 +83,7 @@ class Transporter
         Console.WriteLine($"Суммарная стоимость: {totalcost}");
     }
 
-    // НОВЫЙ МЕТОД: Метод потенциалов для проверки оптимальности
+    //потенциалы
     public static void PotentialMethod(int[] supply, int[] demand, int[,] cost, int[,] initialPlan)
     {
         int rows = supply.Length;
@@ -93,7 +93,7 @@ class Transporter
 
         while (true)
         {
-            Console.WriteLine($"\n=== Итерация {iteration} ===");
+            Console.WriteLine($"\n итерация ");
 
             //подсчет потенциалов
             double[] u = new double[rows];
@@ -186,7 +186,7 @@ class Transporter
             }
             else
             {
-                Console.WriteLine($"\n✗ План неоптимален. Найдено {negativeDeltas.Count} отрицательных оценок.");
+                Console.WriteLine($"\n!!!План неоптимален!!!. Найдено {negativeDeltas.Count} отрицательных оценок.");
 
                 
                 Console.WriteLine("Ячейки с отрицательными оценками:");

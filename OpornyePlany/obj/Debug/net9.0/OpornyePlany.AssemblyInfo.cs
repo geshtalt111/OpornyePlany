@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpornyePlany")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a76a6ed4b4b17c15b2cfd780caf869fceb0b28e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cd18f97e7fe8277f161fdf6ca9c3c9aa6f4e98d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpornyePlany")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpornyePlany")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

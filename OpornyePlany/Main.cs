@@ -1,9 +1,10 @@
+
 class Program
 {
     static void Main()
     {
         // ввод кол-ва потребителей и поставщиков
-        Console.Write("Введите количество поставщиков: ");
+        Console.WriteLine("Введите количество поставщиков: ");
         int rows = int.Parse(Console.ReadLine());
 
         Console.Write("Введите количество потребителей: ");
@@ -54,7 +55,7 @@ class Program
             Console.WriteLine();
         }
 
-        // выбор метода построения опорного плана
+        // выбор мет
         Console.WriteLine("\n1 - Метод минимального элемента");
         Console.WriteLine("2 - Метод северо-западного угла");
         Console.Write("Ваш выбор: ");
